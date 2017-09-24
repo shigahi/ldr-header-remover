@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "ldr-header-remove",
+    "description": "Live Dwango Readerのお知らせヘッダーを取り除く",
+    "version": "0.1",
+    "page_action": {
+        "default_icon": "icon.png",
+        "default_title": "Livedoor Reader"
+    },
+    "content_scripts": [
+        {
+            "matches":  ["http://reader.livedoor.com/reader", "http://reader.livedwango.com/reader"],
+            "js": ["contentscript.js"]
+        }
+    ]
+}
