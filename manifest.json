@@ -6,7 +6,7 @@
   "content_scripts": [
     {
       "matches": [
-        "http://reader.livedoor.com/reader/"
+        "http://reader.livedwango.com/reader/"
       ],
       "js": ["contentscript.js"]
     }
